@@ -1,0 +1,11 @@
+{{> header}}
+
+
+<form action="/login" method="POST">
+<h2>{{pageLabel}}</h2>
+    Username: <input class="form-control"  type="text" name="username" /><br>
+    Password: <input class="form-control" type="text" name="password" /><br>
+    <button class="btn btn-info" type="submit" name="btnLogin">Login</button>
+</form>
+
+{{> footer}}
